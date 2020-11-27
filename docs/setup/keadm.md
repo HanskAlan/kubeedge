@@ -176,7 +176,7 @@ Before metrics-server deployed, `kubectl logs` feature must be activated:
     ``` shell
     sudo nano /etc/kubeedge/config/edgecore.yaml
     ```
-    Modify the file in the following part (`enable: true`), (`server: 192.168.0.193:10004`):
+    Modify the file in the following part (`enable: true`), (`server: 192.168.0.139:10004`):
     ``` yaml
     edgeStream:
       enable: true
